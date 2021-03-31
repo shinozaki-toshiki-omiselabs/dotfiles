@@ -1,0 +1,7 @@
+git clone https://github.com/shinozaki-toshiki-omiselabs/dotfiles;
+cd dotfiles;
+git submodule update --init dircolors-solarized zsh-completions zsh-syntax-highlighting;
+ 
+ln -s ~/dotfiles/.zshrc ~/.;
+ln -s ~/dotfiles/.screenrc ~/.;
+
